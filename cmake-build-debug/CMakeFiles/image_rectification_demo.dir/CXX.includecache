@@ -1041,6 +1041,8 @@ opencv2/stitching/detail/warpers.hpp
 ../test/include/opencv2/stitching/opencv2/stitching/detail/warpers.hpp
 
 C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/rectification.cpp
+cpuid.h
+-
 iostream
 -
 vector

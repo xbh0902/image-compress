@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/include"/>
+					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/image-compress/include"/>
 					<Add directory="D:/Evn/opencv/include"/>
 					<Add directory="D:/Evn/opencv/include/opencv"/>
 					<Add directory="D:/Evn/min-bundle/include"/>
@@ -50,6 +51,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/include"/>
+					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/image-compress/include"/>
 					<Add directory="D:/Evn/opencv/include"/>
 					<Add directory="D:/Evn/opencv/include/opencv"/>
 					<Add directory="D:/Evn/min-bundle/include"/>

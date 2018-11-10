@@ -1,1 +1,1 @@
--IC:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/include -isystem D:/Evn/opencv/include -isystem D:/Evn/opencv/include/opencv 
+-IC:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/include -IC:/Users/Admin/Sources/ctsi_source/image-rectification-demo/image-compress/include -isystem D:/Evn/opencv/include -isystem D:/Evn/opencv/include/opencv 

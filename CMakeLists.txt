@@ -5,10 +5,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(OpenCV_DIR D:/Evn/opencv)
 aux_source_directory(${CMAKE_SOURCE_DIR}/test/ SOURCE_DIR)
 
-include_directories(test/include/)
+include_directories(test/include/
+        image-compress/include)
 
 add_executable(image_rectification_demo ${SOURCE_DIR})
-
 find_package(OpenCV REQUIRED)
 
 message(STATUS "OpenCV library status:")

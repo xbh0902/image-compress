@@ -1,6 +1,7 @@
 //
 // Created by Admin on 2018/10/9.
 //
+#include <cpuid.h>
 #include <iostream>
 #include <vector>
 #include <opencv2/opencv.hpp>
@@ -48,10 +49,44 @@ void onMouse(int event,int x,int y,int flags,void *utsc)
     }
 }
 int main() {
-
+    /**
     image = imread("d:/Admin/Pictures/3333.jpg");
     showWindow(image)
     setMouseCallback("Source Image",onMouse);
     waitKey(0);
+     */
+
+
+    char * msg = NULL;
+    const char * src = "1234567890";
+    size_t len = strlen(src) + 1;
+    msg = static_cast<char *>(malloc(len));
+    cout << strlen(msg) <<endl;
+    memset(msg,0, len);
+    memcpy(msg, src, len);
+    cout << msg << "\t len:"<< strlen(msg) << endl;
+#ifdef __INTEL__
+    cout << "intel" << endl;
+#endif
+#ifdef __i386__
+    cout << "__i386__" << endl;
+#endif
+#ifdef __WINDOWS__
+    cout << "__WINDOWS__" << endl;
+#endif
+#ifdef __x86_64__
+    cout << "__x86_64__" << endl;
+#endif
+#ifdef __amd64
+    cout << "__amd64" << endl;
+#endif
+#ifdef _M_X64
+    cout << "_M_X64" << endl;
+#endif
+#ifdef _WIN64
+    cout << "_WIN64" << endl;
+#endif
+
+    cout << sizeof(int *) << endl;
     return 0;
 }
