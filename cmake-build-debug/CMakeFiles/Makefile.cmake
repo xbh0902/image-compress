@@ -7,16 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.10.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.10.3/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.10.3/CMakeSystem.cmake"
-  "D:/Evn/opencv/OpenCVConfig-version.cmake"
-  "D:/Evn/opencv/OpenCVConfig.cmake"
-  "D:/Evn/opencv/x64/mingw/lib/OpenCVConfig.cmake"
-  "D:/Evn/opencv/x64/mingw/lib/OpenCVModules-release.cmake"
-  "D:/Evn/opencv/x64/mingw/lib/OpenCVModules.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -31,8 +21,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU-C.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU-CXX.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU.cmake"
-  "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
-  "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/FindPackageMessage.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Platform/Windows-GNU-C.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -42,6 +30,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Platform/Windows.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake"
   "D:/Program Files/CLion 2018.1.5/bin/cmake/share/cmake-3.10/Modules/ProcessorCount.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.10.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.10.3/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.10.3/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
@@ -57,5 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/image_rectification_demo.dir/DependInfo.cmake"
+  "CMakeFiles/image-compress.dir/DependInfo.cmake"
   )

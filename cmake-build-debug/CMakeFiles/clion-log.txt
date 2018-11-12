@@ -1,13 +1,4 @@
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Evn/min-bundle/bin/make.exe -DCMAKE_C_COMPILER=D:/Evn/min-bundle/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Evn/min-bundle/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Admin\Sources\ctsi_source\image-rectification-demo
--- OpenCV ARCH: x64
--- OpenCV RUNTIME: mingw
--- OpenCV STATIC: OFF
--- Found OpenCV 3.4.3 in D:/Evn/opencv/x64/mingw/lib
--- You might need to add D:/Evn/opencv/x64/mingw/bin to your PATH to be able to run your applications.
--- OpenCV library status:
--- version: 3.4.3
--- libraries: opencv_calib3d;opencv_core;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching
--- include path: D:/Evn/opencv/include;D:/Evn/opencv/include/opencv
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Evn/min-bundle/bin/make.exe -DCMAKE_C_COMPILER=D:/Evn/min-bundle/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Evn/min-bundle/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" E:\ctsi_source\opencv-demo
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug
+-- Build files have been written to: E:/ctsi_source/opencv-demo/cmake-build-debug

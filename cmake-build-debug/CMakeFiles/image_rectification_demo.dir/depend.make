@@ -96,8 +96,8 @@ CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: ../test/incl
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: ../test/include/opencv2/stitching/detail/warpers.hpp
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: ../test/include/opencv2/stitching/detail/warpers_inl.hpp
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: ../test/include/opencv2/stitching/warpers.hpp
-CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: ../test/rectification.cpp
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: D:/Evn/opencv/include/opencv/cxcore.h
+CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: ../test/rectification.cpp
 
 CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj: ../test/test.cpp
 

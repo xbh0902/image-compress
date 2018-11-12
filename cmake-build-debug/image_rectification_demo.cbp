@@ -8,24 +8,24 @@
 		<Option virtualFolders="CMake Files\;CMake Files\Evn\;CMake Files\Evn\opencv\;CMake Files\Evn\opencv\x64\;CMake Files\Evn\opencv\x64\mingw\;CMake Files\Evn\opencv\x64\mingw\lib\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug"/>
+				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="image_rectification_demo">
-				<Option output="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/image_rectification_demo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug"/>
+				<Option output="E:/ctsi_source/opencv-demo/cmake-build-debug/image_rectification_demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/include"/>
-					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/image-compress/include"/>
+					<Add directory="E:/ctsi_source/opencv-demo/test/include"/>
+					<Add directory="E:/ctsi_source/opencv-demo/image-compress/include"/>
 					<Add directory="D:/Evn/opencv/include"/>
 					<Add directory="D:/Evn/opencv/include/opencv"/>
 					<Add directory="D:/Evn/min-bundle/include"/>
@@ -37,21 +37,21 @@
 					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 image_rectification_demo"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 image_rectification_demo"/>
+					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="image_rectification_demo/fast">
-				<Option output="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/image_rectification_demo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug"/>
+				<Option output="E:/ctsi_source/opencv-demo/cmake-build-debug/image_rectification_demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/include"/>
-					<Add directory="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/image-compress/include"/>
+					<Add directory="E:/ctsi_source/opencv-demo/test/include"/>
+					<Add directory="E:/ctsi_source/opencv-demo/image-compress/include"/>
 					<Add directory="D:/Evn/opencv/include"/>
 					<Add directory="D:/Evn/opencv/include/opencv"/>
 					<Add directory="D:/Evn/min-bundle/include"/>
@@ -63,55 +63,55 @@
 					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 image_rectification_demo/fast"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 image_rectification_demo/fast"/>
+					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug"/>
+				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug"/>
+				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/rectification.cpp">
+		<Unit filename="E:/ctsi_source/opencv-demo/test/rectification.cpp">
 			<Option target="image_rectification_demo"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/test.cpp">
+		<Unit filename="E:/ctsi_source/opencv-demo/test/test.cpp">
 			<Option target="image_rectification_demo"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/CMakeLists.txt">
+		<Unit filename="E:/ctsi_source/opencv-demo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/Evn/opencv/OpenCVConfig-version.cmake">
+		<Unit filename="E:/ctsi_source/opencv-demo/Evn/opencv/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\Evn\opencv\"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/Evn/opencv/OpenCVConfig.cmake">
+		<Unit filename="E:/ctsi_source/opencv-demo/Evn/opencv/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\Evn\opencv\"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/Evn/opencv/x64/mingw/lib/OpenCVConfig.cmake">
+		<Unit filename="E:/ctsi_source/opencv-demo/Evn/opencv/x64/mingw/lib/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\Evn\opencv\x64\mingw\lib\"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/Evn/opencv/x64/mingw/lib/OpenCVModules-release.cmake">
+		<Unit filename="E:/ctsi_source/opencv-demo/Evn/opencv/x64/mingw/lib/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\Evn\opencv\x64\mingw\lib\"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/Evn/opencv/x64/mingw/lib/OpenCVModules.cmake">
+		<Unit filename="E:/ctsi_source/opencv-demo/Evn/opencv/x64/mingw/lib/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\Evn\opencv\x64\mingw\lib\"/>
 		</Unit>
 	</Project>

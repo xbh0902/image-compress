@@ -1,3 +1,3 @@
-C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/image_rectification_demo.dir
-C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/image-compress.dir
+E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/edit_cache.dir

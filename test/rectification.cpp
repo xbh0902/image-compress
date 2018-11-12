@@ -87,6 +87,6 @@ int main() {
     cout << "_WIN64" << endl;
 #endif
 
-    cout << sizeof(int *) << endl;
+    cout << sizeof(double*) << endl;
     return 0;
 }

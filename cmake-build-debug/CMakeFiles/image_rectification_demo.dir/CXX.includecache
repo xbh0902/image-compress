@@ -1040,7 +1040,11 @@ limits
 opencv2/stitching/detail/warpers.hpp
 ../test/include/opencv2/stitching/opencv2/stitching/detail/warpers.hpp
 
-C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/rectification.cpp
+D:/Evn/opencv/include/opencv/cxcore.h
+opencv2/core/core_c.h
+D:/Evn/opencv/include/opencv/opencv2/core/core_c.h
+
+E:/ctsi_source/opencv-demo/test/rectification.cpp
 cpuid.h
 -
 iostream
@@ -1050,9 +1054,5 @@ vector
 opencv2/opencv.hpp
 -
 
-C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/test.cpp
-
-D:/Evn/opencv/include/opencv/cxcore.h
-opencv2/core/core_c.h
-D:/Evn/opencv/include/opencv/opencv2/core/core_c.h
+E:/ctsi_source/opencv-demo/test/test.cpp
 

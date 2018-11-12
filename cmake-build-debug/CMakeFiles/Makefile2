@@ -53,45 +53,45 @@ RM = "D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Sources\ctsi_source\image-rectification-demo
+CMAKE_SOURCE_DIR = E:\ctsi_source\opencv-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ctsi_source\opencv-demo\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/image_rectification_demo.dir
+# Target rules for target CMakeFiles/image-compress.dir
 
 # All Build rule for target.
-CMakeFiles/image_rectification_demo.dir/all:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/depend
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target image_rectification_demo"
-.PHONY : CMakeFiles/image_rectification_demo.dir/all
+CMakeFiles/image-compress.dir/all:
+	$(MAKE) -f CMakeFiles\image-compress.dir\build.make CMakeFiles/image-compress.dir/depend
+	$(MAKE) -f CMakeFiles\image-compress.dir\build.make CMakeFiles/image-compress.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target image-compress"
+.PHONY : CMakeFiles/image-compress.dir/all
 
 # Include target in all.
-all: CMakeFiles/image_rectification_demo.dir/all
+all: CMakeFiles/image-compress.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/image_rectification_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/image_rectification_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/image_rectification_demo.dir/rule
+CMakeFiles/image-compress.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/image-compress.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/image-compress.dir/rule
 
 # Convenience name for target.
-image_rectification_demo: CMakeFiles/image_rectification_demo.dir/rule
+image-compress: CMakeFiles/image-compress.dir/rule
 
-.PHONY : image_rectification_demo
-
-# clean rule for target.
-CMakeFiles/image_rectification_demo.dir/clean:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/clean
-.PHONY : CMakeFiles/image_rectification_demo.dir/clean
+.PHONY : image-compress
 
 # clean rule for target.
-clean: CMakeFiles/image_rectification_demo.dir/clean
+CMakeFiles/image-compress.dir/clean:
+	$(MAKE) -f CMakeFiles\image-compress.dir\build.make CMakeFiles/image-compress.dir/clean
+.PHONY : CMakeFiles/image-compress.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/image-compress.dir/clean
 
 .PHONY : clean
 

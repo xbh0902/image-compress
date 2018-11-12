@@ -47,24 +47,13 @@ RM = "D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Sources\ctsi_source\image-rectification-demo
+CMAKE_SOURCE_DIR = E:\ctsi_source\opencv-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ctsi_source\opencv-demo\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -77,11 +66,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,71 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named image_rectification_demo
+# Target rules for targets named image-compress
 
 # Build rule for target.
-image_rectification_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 image_rectification_demo
-.PHONY : image_rectification_demo
+image-compress: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 image-compress
+.PHONY : image-compress
 
 # fast build rule for target.
-image_rectification_demo/fast:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/build
-.PHONY : image_rectification_demo/fast
+image-compress/fast:
+	$(MAKE) -f CMakeFiles\image-compress.dir\build.make CMakeFiles/image-compress.dir/build
+.PHONY : image-compress/fast
 
-test/rectification.obj: test/rectification.cpp.obj
+image-compress/src/main.obj: image-compress/src/main.cpp.obj
 
-.PHONY : test/rectification.obj
-
-# target to build an object file
-test/rectification.cpp.obj:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj
-.PHONY : test/rectification.cpp.obj
-
-test/rectification.i: test/rectification.cpp.i
-
-.PHONY : test/rectification.i
-
-# target to preprocess a source file
-test/rectification.cpp.i:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.i
-.PHONY : test/rectification.cpp.i
-
-test/rectification.s: test/rectification.cpp.s
-
-.PHONY : test/rectification.s
-
-# target to generate assembly for a file
-test/rectification.cpp.s:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.s
-.PHONY : test/rectification.cpp.s
-
-test/test.obj: test/test.cpp.obj
-
-.PHONY : test/test.obj
+.PHONY : image-compress/src/main.obj
 
 # target to build an object file
-test/test.cpp.obj:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj
-.PHONY : test/test.cpp.obj
+image-compress/src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\image-compress.dir\build.make CMakeFiles/image-compress.dir/image-compress/src/main.cpp.obj
+.PHONY : image-compress/src/main.cpp.obj
 
-test/test.i: test/test.cpp.i
+image-compress/src/main.i: image-compress/src/main.cpp.i
 
-.PHONY : test/test.i
+.PHONY : image-compress/src/main.i
 
 # target to preprocess a source file
-test/test.cpp.i:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/test/test.cpp.i
-.PHONY : test/test.cpp.i
+image-compress/src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\image-compress.dir\build.make CMakeFiles/image-compress.dir/image-compress/src/main.cpp.i
+.PHONY : image-compress/src/main.cpp.i
 
-test/test.s: test/test.cpp.s
+image-compress/src/main.s: image-compress/src/main.cpp.s
 
-.PHONY : test/test.s
+.PHONY : image-compress/src/main.s
 
 # target to generate assembly for a file
-test/test.cpp.s:
-	$(MAKE) -f CMakeFiles\image_rectification_demo.dir\build.make CMakeFiles/image_rectification_demo.dir/test/test.cpp.s
-.PHONY : test/test.cpp.s
+image-compress/src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\image-compress.dir\build.make CMakeFiles/image-compress.dir/image-compress/src/main.cpp.s
+.PHONY : image-compress/src/main.cpp.s
 
 # Help Target
 help:
@@ -182,15 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... image_rectification_demo
-	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test/rectification.obj
-	@echo ... test/rectification.i
-	@echo ... test/rectification.s
-	@echo ... test/test.obj
-	@echo ... test/test.i
-	@echo ... test/test.s
+	@echo ... image-compress
+	@echo ... edit_cache
+	@echo ... image-compress/src/main.obj
+	@echo ... image-compress/src/main.i
+	@echo ... image-compress/src/main.s
 .PHONY : help
 
 

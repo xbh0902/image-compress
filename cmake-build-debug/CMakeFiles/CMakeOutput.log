@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.17134 - AMD64
+The system is: Windows - 10.0.17763 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: D:/Evn/min-bundle/bin/gcc.exe 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/Evn/min-bundle/bin/g++.exe 
@@ -23,37 +23,37 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_da429/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_da429.dir\build.make CMakeFiles/cmTC_da429.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_da429.dir/testCCompiler.c.obj
-D:\Evn\min-bundle\bin\gcc.exe    -o CMakeFiles\cmTC_da429.dir\testCCompiler.c.obj   -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_da429.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_da429.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_da429.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_da429.dir/objects.a @CMakeFiles\cmTC_da429.dir\objects1.rsp
-D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_da429.dir/objects.a -Wl,--no-whole-archive  -o cmTC_da429.exe -Wl,--out-implib,libcmTC_da429.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_da429.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_da015/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_da015.dir\build.make CMakeFiles/cmTC_da015.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da015.dir/testCCompiler.c.obj
+D:\Evn\min-bundle\bin\gcc.exe    -o CMakeFiles\cmTC_da015.dir\testCCompiler.c.obj   -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_da015.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_da015.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_da015.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_da015.dir/objects.a @CMakeFiles\cmTC_da015.dir\objects1.rsp
+D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_da015.dir/objects.a -Wl,--no-whole-archive  -o cmTC_da015.exe -Wl,--out-implib,libcmTC_da015.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_da015.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_b5d37/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_b5d37.dir\build.make CMakeFiles/cmTC_b5d37.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b5d37.dir/CMakeCCompilerABI.c.obj
-D:\Evn\min-bundle\bin\gcc.exe    -o CMakeFiles\cmTC_b5d37.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_b5d37.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b5d37.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b5d37.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_b5d37.dir/objects.a @CMakeFiles\cmTC_b5d37.dir\objects1.rsp
-D:\Evn\min-bundle\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b5d37.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b5d37.exe -Wl,--out-implib,libcmTC_b5d37.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_921fc/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_921fc.dir\build.make CMakeFiles/cmTC_921fc.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_921fc.dir/CMakeCCompilerABI.c.obj
+D:\Evn\min-bundle\bin\gcc.exe    -o CMakeFiles\cmTC_921fc.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_921fc.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_921fc.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_921fc.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_921fc.dir/objects.a @CMakeFiles\cmTC_921fc.dir\objects1.rsp
+D:\Evn\min-bundle\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_921fc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_921fc.exe -Wl,--out-implib,libcmTC_921fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Reading specs from d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/specs
 COLLECT_GCC=D:\Evn\min-bundle\bin\gcc.exe
 COLLECT_LTO_WRAPPER=d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/lto-wrapper.exe
@@ -63,25 +63,25 @@ Thread model: posix
 gcc version 4.8.3 (GCC) 
 COMPILER_PATH=d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/;d:/evn/min-bundle/bin/../libexec/gcc/;d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/;d:/evn/min-bundle/bin/../lib64/gcc/;d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/;d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5d37.exe' '-mtune=generic' '-march=x86-64'
- d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_b5d37.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_b5d37.dir/objects.a --no-whole-archive --out-implib libcmTC_b5d37.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_921fc.exe' '-mtune=generic' '-march=x86-64'
+ d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_921fc.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_921fc.dir/objects.a --no-whole-archive --out-implib libcmTC_921fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_b5d37/fast"]
-  ignore line: [D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_b5d37.dir\build.make CMakeFiles/cmTC_b5d37.dir/build]
-  ignore line: [make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b5d37.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\Evn\min-bundle\bin\gcc.exe    -o CMakeFiles\cmTC_b5d37.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_b5d37.exe]
-  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b5d37.dir\link.txt --verbose=1]
-  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b5d37.dir/objects.a]
-  ignore line: [D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_b5d37.dir/objects.a @CMakeFiles\cmTC_b5d37.dir\objects1.rsp]
-  ignore line: [D:\Evn\min-bundle\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b5d37.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b5d37.exe -Wl,--out-implib,libcmTC_b5d37.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_921fc/fast"]
+  ignore line: [D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_921fc.dir\build.make CMakeFiles/cmTC_921fc.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_921fc.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\Evn\min-bundle\bin\gcc.exe    -o CMakeFiles\cmTC_921fc.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_921fc.exe]
+  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_921fc.dir\link.txt --verbose=1]
+  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_921fc.dir/objects.a]
+  ignore line: [D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_921fc.dir/objects.a @CMakeFiles\cmTC_921fc.dir\objects1.rsp]
+  ignore line: [D:\Evn\min-bundle\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_921fc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_921fc.exe -Wl,--out-implib,libcmTC_921fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Reading specs from d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/specs]
   ignore line: [COLLECT_GCC=D:\Evn\min-bundle\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/lto-wrapper.exe]
@@ -96,15 +96,15 @@ Parsed C implicit link information from above output:
   ignore line: [d:/evn/min-bundle/bin/../lib64/gcc/]
   ignore line: [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/]
   ignore line: [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5d37.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_b5d37.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_b5d37.dir/objects.a --no-whole-archive --out-implib libcmTC_b5d37.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_921fc.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_921fc.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_921fc.dir/objects.a --no-whole-archive --out-implib libcmTC_921fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
     arg [d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe] ==> ignore
     arg [--sysroot=/opt/windows_64] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b5d37.exe] ==> ignore
+    arg [cmTC_921fc.exe] ==> ignore
     arg [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
     arg [-Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3] ==> dir [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3]
@@ -112,10 +112,10 @@ Parsed C implicit link information from above output:
     arg [-Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib]
     arg [-Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_b5d37.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_921fc.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_b5d37.dll.a] ==> ignore
+    arg [libcmTC_921fc.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -156,19 +156,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_5ae52/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_5ae52.dir\build.make CMakeFiles/cmTC_5ae52.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5ae52.dir/feature_tests.c.obj
-D:\Evn\min-bundle\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_5ae52.dir\feature_tests.c.obj   -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_5ae52.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5ae52.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5ae52.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_5ae52.dir/objects.a @CMakeFiles\cmTC_5ae52.dir\objects1.rsp
-D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_5ae52.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5ae52.exe -Wl,--out-implib,libcmTC_5ae52.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5ae52.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_b435a/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_b435a.dir\build.make CMakeFiles/cmTC_b435a.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b435a.dir/feature_tests.c.obj
+D:\Evn\min-bundle\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_b435a.dir\feature_tests.c.obj   -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_b435a.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b435a.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b435a.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_b435a.dir/objects.a @CMakeFiles\cmTC_b435a.dir\objects1.rsp
+D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_b435a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b435a.exe -Wl,--out-implib,libcmTC_b435a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b435a.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,19 +178,19 @@ make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectifi
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_b535a/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_b535a.dir\build.make CMakeFiles/cmTC_b535a.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b535a.dir/feature_tests.c.obj
-D:\Evn\min-bundle\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_b535a.dir\feature_tests.c.obj   -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_b535a.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b535a.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b535a.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_b535a.dir/objects.a @CMakeFiles\cmTC_b535a.dir\objects1.rsp
-D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_b535a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b535a.exe -Wl,--out-implib,libcmTC_b535a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b535a.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_bafcc/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_bafcc.dir\build.make CMakeFiles/cmTC_bafcc.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bafcc.dir/feature_tests.c.obj
+D:\Evn\min-bundle\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_bafcc.dir\feature_tests.c.obj   -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_bafcc.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bafcc.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_bafcc.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_bafcc.dir/objects.a @CMakeFiles\cmTC_bafcc.dir\objects1.rsp
+D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_bafcc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bafcc.exe -Wl,--out-implib,libcmTC_bafcc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bafcc.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -200,19 +200,19 @@ make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectifi
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_c5764/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_c5764.dir\build.make CMakeFiles/cmTC_c5764.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c5764.dir/feature_tests.c.obj
-D:\Evn\min-bundle\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_c5764.dir\feature_tests.c.obj   -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_c5764.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c5764.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c5764.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_c5764.dir/objects.a @CMakeFiles\cmTC_c5764.dir\objects1.rsp
-D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_c5764.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c5764.exe -Wl,--out-implib,libcmTC_c5764.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c5764.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_74ef8/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_74ef8.dir\build.make CMakeFiles/cmTC_74ef8.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74ef8.dir/feature_tests.c.obj
+D:\Evn\min-bundle\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_74ef8.dir\feature_tests.c.obj   -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_74ef8.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_74ef8.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_74ef8.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_74ef8.dir/objects.a @CMakeFiles\cmTC_74ef8.dir\objects1.rsp
+D:\Evn\min-bundle\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_74ef8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_74ef8.exe -Wl,--out-implib,libcmTC_74ef8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_74ef8.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -220,34 +220,34 @@ make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectifi
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_2da93/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_2da93.dir\build.make CMakeFiles/cmTC_2da93.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2da93.dir/testCXXCompiler.cxx.obj
-D:\Evn\min-bundle\bin\g++.exe     -o CMakeFiles\cmTC_2da93.dir\testCXXCompiler.cxx.obj -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_2da93.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2da93.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2da93.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_2da93.dir/objects.a @CMakeFiles\cmTC_2da93.dir\objects1.rsp
-D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_2da93.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2da93.exe -Wl,--out-implib,libcmTC_2da93.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2da93.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_cb04e/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_cb04e.dir\build.make CMakeFiles/cmTC_cb04e.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb04e.dir/testCXXCompiler.cxx.obj
+D:\Evn\min-bundle\bin\g++.exe     -o CMakeFiles\cmTC_cb04e.dir\testCXXCompiler.cxx.obj -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_cb04e.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cb04e.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cb04e.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_cb04e.dir/objects.a @CMakeFiles\cmTC_cb04e.dir\objects1.rsp
+D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_cb04e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cb04e.exe -Wl,--out-implib,libcmTC_cb04e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cb04e.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_b33fd/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_b33fd.dir\build.make CMakeFiles/cmTC_b33fd.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b33fd.dir/CMakeCXXCompilerABI.cpp.obj
-D:\Evn\min-bundle\bin\g++.exe     -o CMakeFiles\cmTC_b33fd.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_b33fd.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b33fd.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b33fd.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_b33fd.dir/objects.a @CMakeFiles\cmTC_b33fd.dir\objects1.rsp
-D:\Evn\min-bundle\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b33fd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b33fd.exe -Wl,--out-implib,libcmTC_b33fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_90e41/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_90e41.dir\build.make CMakeFiles/cmTC_90e41.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90e41.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Evn\min-bundle\bin\g++.exe     -o CMakeFiles\cmTC_90e41.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_90e41.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_90e41.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_90e41.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_90e41.dir/objects.a @CMakeFiles\cmTC_90e41.dir\objects1.rsp
+D:\Evn\min-bundle\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_90e41.dir/objects.a -Wl,--no-whole-archive  -o cmTC_90e41.exe -Wl,--out-implib,libcmTC_90e41.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Reading specs from d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/specs
 COLLECT_GCC=D:\Evn\min-bundle\bin\g++.exe
 COLLECT_LTO_WRAPPER=d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/lto-wrapper.exe
@@ -257,25 +257,25 @@ Thread model: posix
 gcc version 4.8.3 (GCC) 
 COMPILER_PATH=d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/;d:/evn/min-bundle/bin/../libexec/gcc/;d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/;d:/evn/min-bundle/bin/../lib64/gcc/;d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/;d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b33fd.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_b33fd.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_b33fd.dir/objects.a --no-whole-archive --out-implib libcmTC_b33fd.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90e41.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_90e41.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_90e41.dir/objects.a --no-whole-archive --out-implib libcmTC_90e41.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_b33fd/fast"]
-  ignore line: [D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_b33fd.dir\build.make CMakeFiles/cmTC_b33fd.dir/build]
-  ignore line: [make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b33fd.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\Evn\min-bundle\bin\g++.exe     -o CMakeFiles\cmTC_b33fd.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_b33fd.exe]
-  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b33fd.dir\link.txt --verbose=1]
-  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b33fd.dir/objects.a]
-  ignore line: [D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_b33fd.dir/objects.a @CMakeFiles\cmTC_b33fd.dir\objects1.rsp]
-  ignore line: [D:\Evn\min-bundle\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b33fd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b33fd.exe -Wl,--out-implib,libcmTC_b33fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_90e41/fast"]
+  ignore line: [D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_90e41.dir\build.make CMakeFiles/cmTC_90e41.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_90e41.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\Evn\min-bundle\bin\g++.exe     -o CMakeFiles\cmTC_90e41.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\CLion 2018.1.5\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_90e41.exe]
+  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_90e41.dir\link.txt --verbose=1]
+  ignore line: ["D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_90e41.dir/objects.a]
+  ignore line: [D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_90e41.dir/objects.a @CMakeFiles\cmTC_90e41.dir\objects1.rsp]
+  ignore line: [D:\Evn\min-bundle\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_90e41.dir/objects.a -Wl,--no-whole-archive  -o cmTC_90e41.exe -Wl,--out-implib,libcmTC_90e41.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Reading specs from d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/specs]
   ignore line: [COLLECT_GCC=D:\Evn\min-bundle\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/lto-wrapper.exe]
@@ -290,15 +290,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/evn/min-bundle/bin/../lib64/gcc/]
   ignore line: [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/]
   ignore line: [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b33fd.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_b33fd.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_b33fd.dir/objects.a --no-whole-archive --out-implib libcmTC_b33fd.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90e41.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_90e41.exe d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Ld:/evn/min-bundle/bin/../lib64/gcc -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_90e41.dir/objects.a --no-whole-archive --out-implib libcmTC_90e41.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LD:/Evn/min-bundle/lib64 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
     arg [d:/evn/min-bundle/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe] ==> ignore
     arg [--sysroot=/opt/windows_64] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b33fd.exe] ==> ignore
+    arg [cmTC_90e41.exe] ==> ignore
     arg [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
     arg [-Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3] ==> dir [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3]
@@ -306,10 +306,10 @@ Parsed CXX implicit link information from above output:
     arg [-Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib]
     arg [-Ld:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/evn/min-bundle/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_b33fd.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_90e41.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_b33fd.dll.a] ==> ignore
+    arg [libcmTC_90e41.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -349,19 +349,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_3030e/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_3030e.dir\build.make CMakeFiles/cmTC_3030e.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3030e.dir/feature_tests.cxx.obj
-D:\Evn\min-bundle\bin\g++.exe    -std=c++1y -o CMakeFiles\cmTC_3030e.dir\feature_tests.cxx.obj -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_3030e.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3030e.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3030e.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_3030e.dir/objects.a @CMakeFiles\cmTC_3030e.dir\objects1.rsp
-D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_3030e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3030e.exe -Wl,--out-implib,libcmTC_3030e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3030e.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_e6042/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_e6042.dir\build.make CMakeFiles/cmTC_e6042.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6042.dir/feature_tests.cxx.obj
+D:\Evn\min-bundle\bin\g++.exe    -std=c++1y -o CMakeFiles\cmTC_e6042.dir\feature_tests.cxx.obj -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_e6042.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e6042.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e6042.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_e6042.dir/objects.a @CMakeFiles\cmTC_e6042.dir\objects1.rsp
+D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_e6042.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e6042.exe -Wl,--out-implib,libcmTC_e6042.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e6042.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -424,19 +424,19 @@ make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectifi
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_c1929/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_c1929.dir\build.make CMakeFiles/cmTC_c1929.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c1929.dir/feature_tests.cxx.obj
-D:\Evn\min-bundle\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_c1929.dir\feature_tests.cxx.obj -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_c1929.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c1929.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c1929.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_c1929.dir/objects.a @CMakeFiles\cmTC_c1929.dir\objects1.rsp
-D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_c1929.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c1929.exe -Wl,--out-implib,libcmTC_c1929.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c1929.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_ce7d6/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_ce7d6.dir\build.make CMakeFiles/cmTC_ce7d6.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ce7d6.dir/feature_tests.cxx.obj
+D:\Evn\min-bundle\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_ce7d6.dir\feature_tests.cxx.obj -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_ce7d6.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ce7d6.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ce7d6.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_ce7d6.dir/objects.a @CMakeFiles\cmTC_ce7d6.dir\objects1.rsp
+D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_ce7d6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ce7d6.exe -Wl,--out-implib,libcmTC_ce7d6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ce7d6.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -499,19 +499,19 @@ make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectifi
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_01b8c/fast"
-D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_01b8c.dir\build.make CMakeFiles/cmTC_01b8c.dir/build
-make.exe[1]: Entering directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_01b8c.dir/feature_tests.cxx.obj
-D:\Evn\min-bundle\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_01b8c.dir\feature_tests.cxx.obj -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_01b8c.exe
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_01b8c.dir\link.txt --verbose=1
-"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_01b8c.dir/objects.a
-D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_01b8c.dir/objects.a @CMakeFiles\cmTC_01b8c.dir\objects1.rsp
-D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_01b8c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_01b8c.exe -Wl,--out-implib,libcmTC_01b8c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_01b8c.dir\linklibs.rsp
-make.exe[1]: Leaving directory 'C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"D:/Evn/min-bundle/bin/make.exe" "cmTC_981d9/fast"
+D:/Evn/min-bundle/bin/make.exe -f CMakeFiles\cmTC_981d9.dir\build.make CMakeFiles/cmTC_981d9.dir/build
+make.exe[1]: Entering directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_981d9.dir/feature_tests.cxx.obj
+D:\Evn\min-bundle\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_981d9.dir\feature_tests.cxx.obj -c E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_981d9.exe
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_981d9.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_981d9.dir/objects.a
+D:\Evn\min-bundle\bin\ar.exe cr CMakeFiles\cmTC_981d9.dir/objects.a @CMakeFiles\cmTC_981d9.dir\objects1.rsp
+D:\Evn\min-bundle\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_981d9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_981d9.exe -Wl,--out-implib,libcmTC_981d9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_981d9.dir\linklibs.rsp
+make.exe[1]: Leaving directory 'E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

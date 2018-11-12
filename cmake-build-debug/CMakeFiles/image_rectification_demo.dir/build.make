@@ -42,10 +42,10 @@ RM = "D:\Program Files\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Sources\ctsi_source\image-rectification-demo
+CMAKE_SOURCE_DIR = E:\ctsi_source\opencv-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ctsi_source\opencv-demo\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/image_rectification_demo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/image_rectification_demo.dir/flags.make
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: CMakeFiles/image_rectification_demo.dir/flags.make
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: CMakeFiles/image_rectification_demo.dir/includes_CXX.rsp
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj: ../test/rectification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj"
-	D:\Evn\min-bundle\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_rectification_demo.dir\test\rectification.cpp.obj -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\test\rectification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj"
+	D:\Evn\min-bundle\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_rectification_demo.dir\test\rectification.cpp.obj -c E:\ctsi_source\opencv-demo\test\rectification.cpp
 
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.i"
-	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\test\rectification.cpp > CMakeFiles\image_rectification_demo.dir\test\rectification.cpp.i
+	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\ctsi_source\opencv-demo\test\rectification.cpp > CMakeFiles\image_rectification_demo.dir\test\rectification.cpp.i
 
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.s"
-	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\test\rectification.cpp -o CMakeFiles\image_rectification_demo.dir\test\rectification.cpp.s
+	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\ctsi_source\opencv-demo\test\rectification.cpp -o CMakeFiles\image_rectification_demo.dir\test\rectification.cpp.s
 
 CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj.requires:
 
@@ -84,16 +84,16 @@ CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj.provides.buil
 CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj: CMakeFiles/image_rectification_demo.dir/flags.make
 CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj: CMakeFiles/image_rectification_demo.dir/includes_CXX.rsp
 CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj: ../test/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj"
-	D:\Evn\min-bundle\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_rectification_demo.dir\test\test.cpp.obj -c C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\test\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj"
+	D:\Evn\min-bundle\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\image_rectification_demo.dir\test\test.cpp.obj -c E:\ctsi_source\opencv-demo\test\test.cpp
 
 CMakeFiles/image_rectification_demo.dir/test/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_rectification_demo.dir/test/test.cpp.i"
-	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\test\test.cpp > CMakeFiles\image_rectification_demo.dir\test\test.cpp.i
+	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\ctsi_source\opencv-demo\test\test.cpp > CMakeFiles\image_rectification_demo.dir\test\test.cpp.i
 
 CMakeFiles/image_rectification_demo.dir/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_rectification_demo.dir/test/test.cpp.s"
-	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\test\test.cpp -o CMakeFiles\image_rectification_demo.dir\test\test.cpp.s
+	D:\Evn\min-bundle\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\ctsi_source\opencv-demo\test\test.cpp -o CMakeFiles\image_rectification_demo.dir\test\test.cpp.s
 
 CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj.requires:
 
@@ -124,7 +124,7 @@ image_rectification_demo.exe: D:/Evn/opencv/x64/mingw/lib/libopencv_core343.dll.
 image_rectification_demo.exe: CMakeFiles/image_rectification_demo.dir/linklibs.rsp
 image_rectification_demo.exe: CMakeFiles/image_rectification_demo.dir/objects1.rsp
 image_rectification_demo.exe: CMakeFiles/image_rectification_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable image_rectification_demo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable image_rectification_demo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\image_rectification_demo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/image_rectification_demo.dir/clean:
 .PHONY : CMakeFiles/image_rectification_demo.dir/clean
 
 CMakeFiles/image_rectification_demo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin\Sources\ctsi_source\image-rectification-demo C:\Users\Admin\Sources\ctsi_source\image-rectification-demo C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug C:\Users\Admin\Sources\ctsi_source\image-rectification-demo\cmake-build-debug\CMakeFiles\image_rectification_demo.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ctsi_source\opencv-demo E:\ctsi_source\opencv-demo E:\ctsi_source\opencv-demo\cmake-build-debug E:\ctsi_source\opencv-demo\cmake-build-debug E:\ctsi_source\opencv-demo\cmake-build-debug\CMakeFiles\image_rectification_demo.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/image_rectification_demo.dir/depend
 

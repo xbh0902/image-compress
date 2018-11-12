@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/rectification.cpp" "C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj"
-  "C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/test.cpp" "C:/Users/Admin/Sources/ctsi_source/image-rectification-demo/cmake-build-debug/CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj"
+  "E:/ctsi_source/opencv-demo/test/rectification.cpp" "E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/image_rectification_demo.dir/test/rectification.cpp.obj"
+  "E:/ctsi_source/opencv-demo/test/test.cpp" "E:/ctsi_source/opencv-demo/cmake-build-debug/CMakeFiles/image_rectification_demo.dir/test/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,6 +13,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../test/include"
   "../image-compress/include"
+  "../image-compress/src/include"
+  "../image-compress/include/libgd"
   "D:/Evn/opencv/include"
   "D:/Evn/opencv/include/opencv"
   )

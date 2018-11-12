@@ -1,1 +1,1 @@
--IC:/Users/Admin/Sources/ctsi_source/image-rectification-demo/test/include -IC:/Users/Admin/Sources/ctsi_source/image-rectification-demo/image-compress/include -isystem D:/Evn/opencv/include -isystem D:/Evn/opencv/include/opencv 
+-IE:/ctsi_source/opencv-demo/test/include -IE:/ctsi_source/opencv-demo/image-compress/include -IE:/ctsi_source/opencv-demo/image-compress/src/include -IE:/ctsi_source/opencv-demo/image-compress/include/libgd -isystem D:/Evn/opencv/include -isystem D:/Evn/opencv/include/opencv 
