@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/sources/image-compress/image-compress/src/main.cpp" "/root/sources/image-compress/cmake-build-debug/CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o"
+  "E:/ctsi_source/image-compress/image-compress/src/main.cpp" "E:/ctsi_source/image-compress/cmake-build-debug/CMakeFiles/image-compress.dir/image-compress/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,0 @@
-D:/Evn/opencv/x64/mingw/lib/libopencv_highgui343.dll.a D:/Evn/opencv/x64/mingw/lib/libopencv_imgcodecs343.dll.a D:/Evn/opencv/x64/mingw/lib/libopencv_imgproc343.dll.a D:/Evn/opencv/x64/mingw/lib/libopencv_core343.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

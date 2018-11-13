@@ -5,6 +5,8 @@ set COMPRESS_DIR=%p%CompressedImage
 regsvr32.exe /s /i %p%\lib\CxImageATL.dll
 if exist %COMPRESS_DIR% (
      @echo off
+     rem --> Clean dir
+     del %COMPRESS_DIR%\* /q /f /s
 ) else (
       @echo off
       mkdir %COMPRESS_DIR%
@@ -43,31 +45,19 @@ echo.
 
 (dir %1 /aa /b /s | findstr /e /c:"bmp") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-    set fn=%%~ni
-    set input=%%i
-    set output=!COMPRESS_DIR!\!fn!.bmp
-    %p%\bin\CxImage !input! !output! 1 60 > nul & echo %input%=>%output%
+    %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.bmp 1 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.bmp
 )
 (dir %1 /aa /b /s | findstr /e /c:"gif") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-    set fn=%%~ni
-    set input=%%i
-    set output=!COMPRESS_DIR!\!fn!.gif
-    %p%\bin\CxImage !input! !output! 2 60 > nul & echo %input%=>%output%
+    %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.gif 2 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.gif
 )
 (dir %1 /aa /b /s | findstr /e /c:"jpg") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-    set fn=%%~ni
-    set input=%%i
-    set output=!COMPRESS_DIR!\!fn!.jpg
-    %p%\bin\CxImage !input! !output! 3 60 > nul & echo %input%=>%output%
+     %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.jpg 3 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.jpg
 )
 (dir %1 /aa /b /s | findstr /e /c:"png") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-    set fn=%%~ni
-    set input=%%i
-    set output=!COMPRESS_DIR!\!fn!.png
-    %p%\bin\CxImage !input! !output! 4 60 > nul & echo %input%=>%output%
+     %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.png 4 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.png
 )
 echo.
 echo.

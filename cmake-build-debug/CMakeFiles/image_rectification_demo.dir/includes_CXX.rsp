@@ -1,1 +1,0 @@
--IE:/ctsi_source/opencv-demo/test/include -IE:/ctsi_source/opencv-demo/image-compress/include -IE:/ctsi_source/opencv-demo/image-compress/src/include -IE:/ctsi_source/opencv-demo/image-compress/include/libgd -isystem D:/Evn/opencv/include -isystem D:/Evn/opencv/include/opencv 
