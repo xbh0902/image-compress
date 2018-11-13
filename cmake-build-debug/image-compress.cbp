@@ -8,88 +8,86 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
+				<Option working_dir="/root/sources/image-compress/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="image-compress">
-				<Option output="E:/ctsi_source/opencv-demo/cmake-build-debug/image-compress.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/ctsi_source/opencv-demo/image-compress/src/include"/>
-					<Add directory="E:/ctsi_source/opencv-demo/image-compress/include/libgd"/>
-					<Add directory="D:/Evn/min-bundle/include"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-compress"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="image-compress/fast">
-				<Option output="E:/ctsi_source/opencv-demo/cmake-build-debug/image-compress.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/ctsi_source/opencv-demo/image-compress/src/include"/>
-					<Add directory="E:/ctsi_source/opencv-demo/image-compress/include/libgd"/>
-					<Add directory="D:/Evn/min-bundle/include"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="d:\evn\min-bundle\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-compress/fast"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/ctsi_source/opencv-demo/cmake-build-debug"/>
+				<Option working_dir="/root/sources/image-compress/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Evn/min-bundle/bin/make.exe -f &quot;E:/ctsi_source/opencv-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/sources/image-compress/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-compress">
+				<Option output="/root/sources/image-compress/cmake-build-debug/image-compress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/sources/image-compress/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/sources/image-compress/image-compress/src/include"/>
+					<Add directory="/root/sources/image-compress/image-compress/include/libgd"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-compress"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-compress/fast">
+				<Option output="/root/sources/image-compress/cmake-build-debug/image-compress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/sources/image-compress/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/sources/image-compress/image-compress/src/include"/>
+					<Add directory="/root/sources/image-compress/image-compress/include/libgd"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-compress/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/sources/image-compress/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/ctsi_source/opencv-demo/image-compress/src/main.cpp">
+		<Unit filename="/root/sources/image-compress/image-compress/src/main.cpp">
 			<Option target="image-compress"/>
 		</Unit>
-		<Unit filename="E:/ctsi_source/opencv-demo/CMakeLists.txt">
+		<Unit filename="/root/sources/image-compress/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

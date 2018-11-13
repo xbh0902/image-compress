@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/image-compress.dir/image-compress/src/main.cpp.obj"
+  "CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o"
   "image-compress.pdb"
-  "image-compress.exe"
-  "image-compress.exe.manifest"
-  "libimage-compress.dll.a"
+  "image-compress"
 )
 
 # Per-language clean rules from dependency scanning.
