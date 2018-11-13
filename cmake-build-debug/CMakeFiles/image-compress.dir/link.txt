@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o  -o image-compress ../image-compress/libs/liblibgd.a 
+/usr/bin/i686-w64-mingw32-g++  -g   CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o  -o image-compress ../image-compress/libs/liblibgd.a 

@@ -60,15 +60,15 @@ include CMakeFiles/image-compress.dir/flags.make
 CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o: CMakeFiles/image-compress.dir/flags.make
 CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o: ../image-compress/src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/sources/image-compress/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o -c /root/sources/image-compress/image-compress/src/main.cpp
+	/usr/bin/i686-w64-mingw32-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image-compress.dir/image-compress/src/main.cpp.o -c /root/sources/image-compress/image-compress/src/main.cpp
 
 CMakeFiles/image-compress.dir/image-compress/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image-compress.dir/image-compress/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/sources/image-compress/image-compress/src/main.cpp > CMakeFiles/image-compress.dir/image-compress/src/main.cpp.i
+	/usr/bin/i686-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/sources/image-compress/image-compress/src/main.cpp > CMakeFiles/image-compress.dir/image-compress/src/main.cpp.i
 
 CMakeFiles/image-compress.dir/image-compress/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image-compress.dir/image-compress/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/sources/image-compress/image-compress/src/main.cpp -o CMakeFiles/image-compress.dir/image-compress/src/main.cpp.s
+	/usr/bin/i686-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/sources/image-compress/image-compress/src/main.cpp -o CMakeFiles/image-compress.dir/image-compress/src/main.cpp.s
 
 # Object files for target image-compress
 image__compress_OBJECTS = \
