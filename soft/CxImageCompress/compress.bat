@@ -3,6 +3,14 @@ setlocal enabledelayedexpansion
 set p=%~dp0
 set COMPRESS_DIR=%p%CompressedImage
 regsvr32.exe /s /i %p%\lib\CxImageATL.dll
+for /f "delims=" %%i in ('dir /a-d /s /b') do (
+     if "%%~xi" == ".JPG" ren "%%~fsi" "%%~ni.jpg"
+     if "%%~xi" == ".jpeg" ren "%%~fsi" "%%~ni.jpg"
+     if "%%~Xi" == ".JPEG" ren "%%~fsi" "%%~ni.jpg"
+)
+if exist tmp.txt (
+    del tmp.txt /q /f /s
+)
 if exist %COMPRESS_DIR% (
      @echo off
      rem --> Clean dir
@@ -53,11 +61,11 @@ for /f "delims=" %%i in (tmp.txt) do (
 )
 (dir %1 /aa /b /s | findstr /e /c:"jpg") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-     %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.jpg 3 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.jpg
+    %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.jpg 3 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.jpg
 )
 (dir %1 /aa /b /s | findstr /e /c:"png") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-     %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.png 4 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.png
+    %p%\bin\CxImage %%i %COMPRESS_DIR%\%%~ni.png 4 60 > nul & echo %%i----%COMPRESS_DIR%\%%~ni.png
 )
 echo.
 echo.
