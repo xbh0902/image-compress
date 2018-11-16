@@ -1,4 +1,8 @@
+:: 这是一个图片压缩的批处理脚本，你只需要将图片所在的文件夹拖放使用本脚本打开，即可进行图片的批量压缩。
+:: 图片压缩使用的是google开源工具guetzli,可配置参数只有一个“quality”（质量,本程序中可选值范围85~100）
 @echo off
+:: 图片压缩质量
+set QUALITY=90
 setlocal enabledelayedexpansion
 set p=%~dp0
 set COMPRESS_DIR=%p%CompressedImage
@@ -21,16 +25,16 @@ pause
 echo.
 echo.
 
-
 (dir %1 /aa /b /s | findstr /e /c:"jpg") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
     echo "%%~fsi(正在压缩...)"
-    %compressor% --quality 85 --verbose %%~fsi %COMPRESS_DIR%\%%~ni.jpg
+    %compressor% --quality %QUALITY% --verbose %%~fsi %COMPRESS_DIR%\%%~ni.jpg
+    echo "%%~fsi(压缩完成)"
 )
 (dir %1 /aa /b /s | findstr /e /c:"png") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
     echo "%%~fsi(正在压缩...)"
-    %compressor% --quality 85 --verbose %%~fsi %COMPRESS_DIR%\%%~ni.jpg
+    %compressor% --quality %QUALITY% --verbose %%~fsi %COMPRESS_DIR%\%%~ni.jpg
     echo "%%~fsi(压缩完成)"
 )
 echo.

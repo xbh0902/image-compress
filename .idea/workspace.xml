@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fdc25a-8a6b-4c6e-88bb-76d06548b00c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/soft/guetzli/x86-64/guetzli.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft/guetzli/x86/guetzli.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageCompress.bat" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft/guetzli/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
@@ -34,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
@@ -53,29 +47,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/image-compress.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/libs/liblibgd.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/entities.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gd_color_map.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gd_errors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gd_io.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdcache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdfontg.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdfontl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdfontmb.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdfonts.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdfontt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdfx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/include/libgd/gdpp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-compress/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/CxImageCompress.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/CxImageCompress/bin/CxImage.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/CxImageCompress/compress.bat" beforeDir="false" afterPath="$PROJECT_DIR$/soft/guetzli/compress.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/CxImageCompress/lib/CxImageATL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/CxImageCompress/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/libgd-2.2.5-win32.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/libjpeg.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft/libpng.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft/guetzli/compress.bat" beforeDir="false" afterPath="$PROJECT_DIR$/soft/guetzli/compress.bat" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,32 +76,32 @@
           <entry key="gitignore" value="1" />
           <entry key="h" value="2" />
           <entry key="make" value="1" />
-          <entry key="md" value="1" />
-          <entry key="txt" value="8" />
+          <entry key="md" value="3" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="ObjectiveC" value="3" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="bat" value="1445" />
+          <entry key="bat" value="1803" />
           <entry key="cpp" value="14" />
           <entry key="gitignore" value="17" />
-          <entry key="md" value="18" />
-          <entry key="txt" value="153" />
+          <entry key="md" value="134" />
+          <entry key="txt" value="160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bat" value="128" />
+          <entry key="Bat" value="486" />
           <entry key="CMakeLists.txt" value="91" />
           <entry key="ObjectiveC" value="14" />
-          <entry key="PLAIN_TEXT" value="1414" />
+          <entry key="PLAIN_TEXT" value="1537" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -144,17 +116,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soft/guetzli/compress.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state>
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="67" />
+              <caret column="3" selection-start-column="3" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="87" lean-forward="true" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/soft/guetzli/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -192,8 +174,9 @@
         <option value="$PROJECT_DIR$/soft/CxImageCompress/compress.bat" />
         <option value="$PROJECT_DIR$/image-compress/src/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/soft/guetzli/compress.bat" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/soft/guetzli/compress.bat" />
+        <option value="$PROJECT_DIR$/soft/guetzli/README.txt" />
       </list>
     </option>
   </component>
@@ -220,6 +203,17 @@
             <path>
               <item name="image-compress" type="b2602c69:ProjectViewProjectNode" />
               <item name="image-compress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image-compress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image-compress" type="462c0819:PsiDirectoryNode" />
+              <item name="soft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image-compress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image-compress" type="462c0819:PsiDirectoryNode" />
+              <item name="soft" type="462c0819:PsiDirectoryNode" />
+              <item name="guetzli" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,12 +284,12 @@
       <workItem from="1542155911417" duration="10224000" />
       <workItem from="1542263672437" duration="1268000" />
       <workItem from="1542268362705" duration="1520000" />
-      <workItem from="1542269930260" duration="3627000" />
+      <workItem from="1542269930260" duration="7572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115086000" />
+    <option name="totallyTimeSpent" value="119031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="748" extended-state="6" />
@@ -399,17 +393,28 @@
     <entry file="file://$PROJECT_DIR$/image-compress/src/main.cpp" />
     <entry file="file://$PROJECT_DIR$/image-compress/src/include/stdint.h" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/src/guetzli/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/soft/guetzli/compress.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state>
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="67" />
+          <caret column="3" selection-start-column="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="15">
+          <caret line="1" column="87" lean-forward="true" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soft/guetzli/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
