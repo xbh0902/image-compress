@@ -1,7 +1,7 @@
 @echo off
-rem ÕâÊÇÒ»¸öÍ¼Æ¬Ñ¹ËõµÄÅú´¦Àí½Å±¾£¬ÄãÖ»ĞèÒª½«Í¼Æ¬ËùÔÚµÄÎÄ¼ş¼ĞÍÏ·ÅÊ¹ÓÃ±¾½Å±¾´ò¿ª£¬¼´¿É½øĞĞÍ¼Æ¬µÄÅúÁ¿Ñ¹Ëõ¡£
-rem Í¼Æ¬Ñ¹ËõÊ¹ÓÃµÄÊÇgoogle¿ªÔ´¹¤¾ßguetzli,¿ÉÅäÖÃ²ÎÊıÖ»ÓĞÒ»¸ö¡°quality¡±£¨ÖÊÁ¿,±¾³ÌĞòÖĞ¿ÉÑ¡Öµ·¶Î§85~100£©
-rem Í¼Æ¬Ñ¹ËõÖÊÁ¿
+rem è¿™æ˜¯ä¸€ä¸ªå›¾ç‰‡å‹ç¼©çš„æ‰¹å¤„ç†è„šæœ¬ï¼Œä½ åªéœ€è¦å°†å›¾ç‰‡æ‰€åœ¨çš„æ–‡ä»¶å¤¹æ‹–æ”¾ä½¿ç”¨æœ¬è„šæœ¬æ‰“å¼€ï¼Œå³å¯è¿›è¡Œå›¾ç‰‡çš„æ‰¹é‡å‹ç¼©ã€‚
+rem å›¾ç‰‡å‹ç¼©ä½¿ç”¨çš„æ˜¯googleå¼€æºå·¥å…·guetzli,å¯é…ç½®å‚æ•°åªæœ‰ä¸€ä¸ªâ€œqualityâ€ï¼ˆè´¨é‡,æœ¬ç¨‹åºä¸­å¯é€‰å€¼èŒƒå›´85~100ï¼‰
+rem å›¾ç‰‡å‹ç¼©è´¨é‡
 set QUALITY=85
 setlocal enabledelayedexpansion
 set p=%~dp0
@@ -18,11 +18,11 @@ if "%PROCESSOR_ARCHITECTURE%%PROCESSOR_ARCHITEW6432%" == "x86" (
 )
 set parent_dir=%~dp1
 for %%i in (dir %1) do set name=%%~nxi
-set COMPRESS_DIR=%parent_dir%!name!-Ñ¹Ëõ¸±±¾
+set COMPRESS_DIR=%parent_dir%!name!-å‹ç¼©å‰¯æœ¬
 mkdir %COMPRESS_DIR%
-echo Í¼Æ¬Ñ¹Ëõºó½«±»±£´æµ½"%COMPRESS_DIR%"
+echo å›¾ç‰‡å‹ç¼©åå°†è¢«ä¿å­˜åˆ°"%COMPRESS_DIR%"
 
-echo ¿ªÊ¼ÅúÁ¿Ñ¹ËõÈ«²¿Í¼Æ¬:
+echo å¼€å§‹æ‰¹é‡å‹ç¼©å…¨éƒ¨å›¾ç‰‡:
 echo.
 echo.
 pause
@@ -31,19 +31,19 @@ echo.
 
 (dir %1 /aa /b /s | findstr /e /c:"jpg") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-    echo "%%~fsi"ÕıÔÚÑ¹Ëõ...
+    echo "%%~fsi"æ­£åœ¨å‹ç¼©...
     %compressor% --quality %QUALITY% --verbose %%~fsi %COMPRESS_DIR%\%%~ni.jpg
-    echo "%%~fsi"Ñ¹ËõÍê³É
+    echo "%%~fsi"å‹ç¼©å®Œæˆ
 )
 (dir %1 /aa /b /s | findstr /e /c:"png") >tmp.txt
 for /f "delims=" %%i in (tmp.txt) do (
-    echo "%%~fsi"ÕıÔÚÑ¹Ëõ...
+    echo "%%~fsi"æ­£åœ¨å‹ç¼©...
     %compressor% --quality %QUALITY% --verbose %%~fsi %COMPRESS_DIR%\%%~ni.jpg
-    echo "%%~fsi"Ñ¹ËõÍê³É
+    echo "%%~fsi"å‹ç¼©å®Œæˆ
 )
 echo.
 echo.
 del tmp.txt /q /f /s
-echo ¹§Ï²È«²¿Í¼Æ¬Ñ¹ËõÍê³ÉÀ², Á¢¼´²é¿´:
+echo æ­å–œå…¨éƒ¨å›¾ç‰‡å‹ç¼©å®Œæˆå•¦, ç«‹å³æŸ¥çœ‹:
 pause
-start "ÒÑÑ¹ËõÍ¼Æ¬" %COMPRESS_DIR% & exit
+start "å·²å‹ç¼©å›¾ç‰‡" %COMPRESS_DIR% & exit
