@@ -1,3 +1,0 @@
-E:/ctsi_source/image-compress/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/ctsi_source/image-compress/cmake-build-debug/CMakeFiles/image-compress.dir
-E:/ctsi_source/image-compress/cmake-build-debug/CMakeFiles/edit_cache.dir
